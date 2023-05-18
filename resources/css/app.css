@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -7,18 +11,17 @@
     -o-box-sizing: border-box;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    
 }
 
-body {
+/* body {
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     position: fixed;
     overflow: hidden;
-}
-h1,
+} */
+/* h1,
 h2,
 p,
 label {
@@ -27,9 +30,9 @@ label {
 }
 label {
     font-size: small;
-}
+} */
 
-.page-wrapper {
+/* .page-wrapper {
     width: 100%;
     height: 100%;
     padding: 16px;
@@ -152,8 +155,8 @@ label {
     align-items: center;
     justify-content: space-around;
     scale: 1;
-}
-input {
+} */
+/* input {
     width: 100%;
     padding-inline: 16px;
     padding-block: 10px;
@@ -178,11 +181,11 @@ input:focus {
 }
 ::-webkit-scrollbar-thumb:hover {
     background: black;
-}
+} */
 
-#myButton {
+/* #myButton {
     border: none;
-}
+} */
 
 .modal {
     display: none; /* Hidden by default */
