@@ -36,7 +36,7 @@ Route::post('store', [UserController::class, 'store']);
 
 //sucessfully page
 Route::get('sucess', function () {
-    return view('sucess');
+    return view('pages.success.index');
 });
 
 
