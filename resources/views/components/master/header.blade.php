@@ -1,6 +1,11 @@
 <section class="grid-container">
     <section class="column-span-4 header-info-container">
-        <img src="/logoms.svg" alt="MS" class="ms-logo">
-        <h1>Pre Register</h1>
-        <!-- <p>Become eligible to be selected as a privileged user</p> -->
+        <div class="header-grid">
+            <div class="header-image">
+                <img src="/logoms.svg" alt="MS" class="ms-logo">
+            </div>
+            <div class="header-text">
+                <h1>Pre Register</h1>
+            </div>
+        </div>
     </section>
