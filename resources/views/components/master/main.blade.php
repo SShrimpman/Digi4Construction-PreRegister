@@ -17,12 +17,12 @@
         <link rel="icon" type="image/x-icon" href="/logoms.svg">
 
         <!-- Styles -->
-        {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        @yield('styles') --}}
-        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        @yield('styles')
+        {{-- <link rel="stylesheet" type="text/css" href="/style.css"> --}}
     </head>
     <body>
-        <main class="page-wrapper">
+        {{-- <main class="page-wrapper"> --}}
             @component('components.master.header')
             @endcomponent
 
@@ -30,6 +30,6 @@
             
             @component('components.master.footer')
             @endcomponent
-        </main>
+        {{-- </main> --}}
     </body>
 </html>
