@@ -28,8 +28,8 @@
 
             @yield('content')
             
-            @component('components.master.footer')
-            @endcomponent
+            {{-- @component('components.master.footer')
+            @endcomponent --}}
         </main>
     </body>
 </html>

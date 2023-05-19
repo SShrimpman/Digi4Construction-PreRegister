@@ -29,6 +29,7 @@ label {
     font-size: small;
 }
 
+
 .page-wrapper {
     width: 100%;
     height: 100%;
@@ -140,19 +141,50 @@ label {
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-inline: 64px;
-    gap: 10px;
+    padding-inline: 10%;
+    gap: 5px;
     margin-top: 10px;
 }
 .footer-item {
-    width: 120px;
-    height: 80px;
+    width: 60%;
+    height: 60%;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
     scale: 1;
+    margin-right: 5%;
 }
+
+
+
+.footer-text {
+    font-family: Inter-Black;
+    color: #9fd1ff;
+    -webkit-text-stroke: 2px ;
+    -webkit-text-stroke-color: #9fd1ff;
+    transform: scale(1.70);
+    align-content: center;
+}
+.footer-text:hover{
+    transform: scale(2.30) ;
+}
+.footer-image {
+margin-top: 5%;
+align-content: center;
+transform: scale(1.0);
+
+width: 140px;
+height: 140px;
+
+};
+.footer-image:hover {
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transform: scale(1.5);
+    
+    };
+
 input {
     width: 100%;
     padding-inline: 16px;
@@ -183,6 +215,8 @@ input:focus {
 #myButton {
     border: none;
 }
+
+
 
 .modal {
     display: none; /* Hidden by default */
@@ -266,10 +300,8 @@ input:focus {
 
 
 .sucesso {
-    position: absolute;
+    position: center;
     width: 100%;
-    padding: 0px;
-    bottom: 50px;
 }
 
 .alert-danger {
@@ -283,6 +315,8 @@ hr{
     border-top: 1px solid #f0f0f0;
     width: 100%;
 }
+
+
 
 @media screen and (max-width: 599px) {
     .page-wrapper {

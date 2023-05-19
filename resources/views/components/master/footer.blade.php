@@ -12,4 +12,4 @@
             <p>AMPLIFIED</p>
         </div>
     </section>
-</section>
+{{-- </section> --}}

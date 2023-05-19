@@ -85,6 +85,7 @@
             <button class="myBtn">Submit</button>
         </div>
     </section>
+</section>
 </form>
 
 <script>
