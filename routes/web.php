@@ -39,6 +39,10 @@ Route::get('sucess', function () {
     return view('pages.success.index');
 });
 
+Route::get('form2', function () {
+    return view('form');
+});
+
 
 
 /**SECOND FORM ROUTES !!! */
