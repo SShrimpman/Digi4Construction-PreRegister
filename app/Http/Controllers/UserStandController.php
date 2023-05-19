@@ -43,9 +43,7 @@ class UserStandController extends Controller
 
             $userStand = UserStand::create([
                 'name' => $request->name,
-                'last_name' => $request->last_name,
                 'email' => $request->email,
-                'profession' => $request->profession,
                 'company' => $request->company,
                 'password' => Hash::make($request->password)
             ]);
@@ -108,9 +106,9 @@ class UserStandController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'last_name' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            // 'last_name' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'profession' => ['required|string|max:50'],
+            // 'profession' => ['required|string|max:50'],
             'company' => ['nullable|string|max:25'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
