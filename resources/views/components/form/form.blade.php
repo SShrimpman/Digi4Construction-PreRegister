@@ -16,28 +16,32 @@
             </div>
         @endif --}}
         @if ($errors->any())
-        <div class="max-w-xs bg-white border rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-700" role="alert">
-            <div class="flex p-4">
-              <div class="flex-shrink-0">
-                <svg class="h-4 w-4 text-red-500 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                </svg>
-              </div>
-              <div class="ml-3">
+            <div class="flex flex-col gap-2 justify-center lg:absolute lg:top-0 lg:right-0 lg:mt-5 lg:mr-5">
                 @foreach ($errors->all() as $error)
-                    <p class="text-sm text-gray-700 dark:text-gray-400">
-                        {{ $error }}
-                    </p>
+                <div class="flex justify-center">
+                    <div class="bg-white w-64 lg:w-80 border rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-700" role="alert">
+                        <div class="flex justify-center p-4">
+                            <div class="lg:grid lg:content-center shrink-0">
+                                <svg class="h-4 w-4 text-red-500 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-white lg:text-xl">
+                                    {{ $error }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 @endforeach
-              </div>
             </div>
-          </div>
-          @endif
+        @endif
 
         <form name="form" id="form" method="POST" action="{{ url('store') }}" class="w-800 h-full rounded-b-2xl">
             @csrf
             <div class="flex justify-center mt-5 mb-5">
-                <h3 class="flex justify-center font-bold font-betatron text-xl tracking-widest">Junta-te a nós!</h3>
+                <h3 class="flex justify-center font-bold font-betatron text-xl tracking-widest">Junte-se a nós!</h3>
             </div>
             <div class="flex justify-center">
                 <div class="grid grid-cols-1 mb-5 mt-5 gap-5 md:w-96">
