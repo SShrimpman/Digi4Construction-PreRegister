@@ -69,10 +69,9 @@
                             </label>
                           </div>
                     </div>
-                    <div class="flex mt-4">
-                        <input type="checkbox" id="checkbox" required>
+                    <div class="flex justify-center mt-4">
                         <label class="text-xs ml-1">
-                            Concorda com os termos da nossa <strong class="text-lightBlue underline cursor-pointer" onclick="privacy()">política de privacidade</strong>.
+                            Ao clicar no botão 'Submeter' está a concordar com os termos da nossa <strong class="text-lightBlue underline cursor-pointer" onclick="privacy()">política de privacidade</strong>.
                         </label>
                     </div>
                     <div class="flex justify-center mt-4">
@@ -84,7 +83,7 @@
     </div>
 </div>
 <div id="popup" class="hidden fixed flex justify-center h-full w-full top-0 left-0 items-center bg-transparentBg z-10">
-    <div class="rounded-lg bg-white p-5 h-500 w-1000 overflow-auto">
+    <div class="rounded-lg bg-white p-5 h-700 w-1000 overflow-auto">
         <strong class="flex justify-center font-betatron">Política de Privacidade</strong>
         <div class="mt-4">
             <p>
