@@ -85,50 +85,55 @@
 </div>
 <div id="popup" class="hidden fixed flex justify-center h-full w-full top-0 left-0 items-center bg-transparentBg z-10">
     <div class="rounded-lg bg-white p-5 h-500 w-1000 overflow-auto">
-        <strong class="flex justify-center font-betatron">Termos do Acordo de Privacidade do utilizador</strong>
+        <strong class="flex justify-center font-betatron">Política de Privacidade</strong>
         <div class="mt-4">
-            <p>Agradecemos o seu interesse no Digi4Construction, uma plataforma digital que visa facilitar a gestão do ciclo de vida de edifícios e infraestruturas através da digitalização. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos as informações pessoais que você fornece ao usar nossa plataforma. É importante ler esta política com atenção para entender nossas práticas em relação aos seus dados pessoais.</p>
+            <p>
+                A sua privacidade é importante para nós. É política do Digi4Construction respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Digi4Construction e em outros sites que possuímos e operamos.
+            </p>
 
-            <h2 class="mt-4">Coleta de Informações:</h2>
+            <p class="mt-4">
+                Solicitamos informações pessoais apenas quando realmente precisamos delas para fornecer-lhe um serviço. Fazemo-lo de maneira justa e legal, com o seu conhecimento e consentimento. Também informamos o motivo da coleta e como essas informações serão utilizadas.
+            </p>
+            <p class="mt-4">
+                Retemos apenas as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemo-los por meios comercialmente aceitáveis para evitar perdas, roubos, acesso, divulgação, cópia, uso ou modificação não autorizados.
+            </p>
+
+            <p class="mt-4">
+                Não compartilhamos publicamente informações de identificação pessoal ou com terceiros, exceto quando exigido por lei.
+            </p>
+
+            <p class="mt-4">
+                O nosso site pode conter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e as práticas desses sites, e não podemos aceitar responsabilidade por suas políticas de privacidade respectivas.
+            </p>
+
+            <p class="mt-4">
+                Você é livre para recusar a nossa solicitação de informações pessoais, compreendendo que talvez não possamos fornecer alguns dos serviços desejados.
+            </p>
+
+            <p class="mt-4">
+                Ao continuar a utilizar o nosso site, consideraremos que você aceita as nossas práticas de privacidade e tratamento de informações pessoais. Se tiver alguma dúvida sobre como lidamos com os dados do utilizador e informações pessoais, entre em contacto connosco.
+            </p>
+
+            <strong class="flex justify-center font-betatron">Compromisso do Utilizador</strong>
+
+            <h2 class="mt-4">O utilizador compromete-se a fazer uso adequado dos conteúdos e da informação que o Digi4Construction oferece no site, nomeadamente:</h2>
             <ul class="list-disc ml-8">
-                <li>Coletamos informações pessoais que você fornece voluntariamente ao se cadastrar na plataforma Digi4Construction, como seu nome, endereço de e-mail e informações de contato.</li>
-                <li>Também podemos coletar informações sobre o uso que você faz da plataforma, como suas interações, preferências e atividades dentro do sistema.</li>
+                <li>Não se envolver em atividades ilegais ou contrárias à boa fé e à ordem pública;</li>
+                <li>Não difundir propaganda ou conteúdo de natureza racista, xenófoba, ou qualquer tipo de apologia ao terrorismo ou contra os direitos humanos;</li>
+                <li>Não causar danos aos sistemas físicos (hardware) e lógicos (software) do Digi4Construction, de seus fornecedores ou de terceiros, nem introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software capazes de causar os danos anteriormente mencionados.</li>
             </ul>
 
-            <h2 class="mt-4">Uso das Informações:</h2>
-            <ul class="list-disc ml-8">
-                <li>Utilizamos as informações coletadas para operacionalizar e melhorar a plataforma Digi4Construction, fornecendo recursos e serviços personalizados.</li>
-                <li>Podemos utilizar seus dados para enviar comunicações relacionadas à plataforma, como atualizações, notificações e informações importantes sobre sua conta.</li>
-                <li>Os dados podem ser utilizados para análises estatísticas e pesquisas internas, desde que sejam anonimizados e não identifiquem diretamente você.</li>
-            </ul>
+            <p class="mt-4">
+                Mais Informações
+            </p>
 
-            <h2 class="mt-4">Compartilhamento de Informações:</h2>
-            <ul class="list-disc ml-8">
-                <li>Não vendemos, alugamos ou divulgamos suas informações pessoais a terceiros, exceto quando exigido por lei ou quando você nos autorizar explicitamente.</li>
-                <li>Podemos compartilhar seus dados com parceiros e prestadores de serviços que nos auxiliam na operação e melhoria da plataforma, mediante contratos que garantam a proteção de suas informações.</li>
-            </ul>
+            <p class="mt-4">
+                Esperamos que esteja esclarecido e, como mencionado anteriormente, caso haja alguma dúvida sobre a necessidade de fornecer determinadas informações, geralmente é mais seguro deixar os cookies ativados caso interaja com um dos recursos que utiliza em nosso site.
+            </p>
 
-            <h2 class="mt-4">Segurança dos Dados:</h2>
-            <ul class="list-disc ml-8">
-                <li>Implementamos medidas de segurança técnicas e organizacionais para proteger suas informações contra acesso não autorizado, uso indevido, alteração ou divulgação.</li>
-                <li>No entanto, é importante ressaltar que nenhum método de transmissão ou armazenamento de dados é totalmente seguro. Portanto, não podemos garantir a segurança absoluta de suas informações.</li>
-            </ul>
-
-            <h2 class="mt-4">Retenção de Dados:</h2>
-            <ul class="list-disc ml-8">
-                <li>Manteremos suas informações pessoais pelo tempo necessário para cumprir as finalidades descritas nesta política, a menos que uma retenção mais longa seja exigida ou permitida por lei.</li>
-            </ul>
-
-            <h2 class="mt-4">Seus Direitos:</h2>
-            <ul class="list-disc ml-8">
-                <li>Você tem o direito de acessar, corrigir, atualizar e excluir suas informações pessoais, sujeito às limitações legais e contratuais.</li>
-                <li>Também pode optar por não receber comunicações promocionais nossas, seguindo as instruções de cancelamento de inscrição fornecidas.</li>
-            </ul>
-
-            <h2 class="mt-4">Alterações na Política de Privacidade:</h2>
-            <ul class="list-disc ml-8">
-                <li>Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página e entram em vigor imediatamente após a publicação.</li>
-            </ul>
+            <p class="mt-4">
+                Esta política entra em vigor em 24 de maio de 2023.
+            </p>
         </div>
         <div class="flex justify-center mt-4">
             <button id="myBtn" onclick="privacy()">Fechar</button>
