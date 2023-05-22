@@ -5,16 +5,6 @@
                     Digi<span id="glow">4</span>Construction
                 </h1>
             </div>
-
-        {{-- @if ($errors->any())
-            <div class="text-white">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif --}}
         @if ($errors->any())
             <div class="flex flex-col gap-2 justify-center lg:absolute lg:top-0 lg:right-0 lg:mt-5 lg:mr-5">
                 @foreach ($errors->all() as $error)

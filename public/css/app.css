@@ -904,6 +904,21 @@ video {
     }
   }
 
+  #glow2 {
+    color: #fff;
+    text-align: center;
+    animation: glow2 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #86f5fc, 0 0 40px #86f5fc, 0 0 50px #86f5fc, 0 0 60px #86f5fc, 0 0 70px #86f5fc;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #9df4fa, 0 0 40px #9df4fa, 0 0 50px #9df4fa, 0 0 60px #9df4fa, 0 0 70px #9df4fa, 0 0 80px #9df4fa;
+    }
+  }
+
 #myBtn {
     border: none;
     padding-block: 8px;
@@ -922,91 +937,6 @@ video {
 #form{
   color: white;
 }
-
-/* #wrapper {
-  height: 5vh;
-  display: grid;
-  place-items: center;
-}
-
-#typing-demo1 {
-  text-align: center;
-  width: 26ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate, remove-border 2s 1.3s forwards;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-  color: white;
-}
-#typing-demo2 {
-  width: 34ch;
-  opacity: 0;
-  animation: typing 2s steps(22) 2s, blink .5s step-end infinite alternate 2s, opacity-change 0s 2s forwards;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-  color: white;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
-@keyframes remove-border {
-  to {
-    border-right-color: transparent;
-  }
-}
-
-@keyframes opacity-change {
-  to {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 480px) {
-  #typing-demo2 {
-    width: 100%;
-    white-space: normal;
-    overflow: hidden;
-    position: relative;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-
-  #typing-demo2::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    white-space: normal;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  #typing-demo2:hover::after {
-    visibility: visible;
-    opacity: 1;
-  }
-} */
 
 #wrapper {
   height: 5vh;
@@ -1027,7 +957,7 @@ video {
   color: white;
 }
 #typing-demo2 {
-  width: 34ch;
+  width: 31ch;
   opacity: 0;
   animation: typing 1.2s steps(22) 2s, blink .5s step-end infinite alternate 2s, opacity-change 0s 2s forwards;
   white-space: nowrap;
@@ -1049,7 +979,7 @@ video {
   color: white;
 }
 #typing-demo4 {
-  width: 26.1ch;
+  width: 25ch;
   opacity: 0;
   animation: typing 1.2s steps(22) 2s, blink .5s step-end infinite alternate 2s, opacity-change 0s 2s forwards, remove-border 5s 1s forwards;
   white-space: nowrap;

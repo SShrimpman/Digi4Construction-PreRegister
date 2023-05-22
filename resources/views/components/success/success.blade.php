@@ -6,7 +6,7 @@
   </div>
   <div id="wrapper">
     <div id="typing-demo2">
-      O Digi4Construction espera por si!
+      O <span class="font-betatron" style="font-size: 24px">Digi<span id="glow2">4</span>Construction</span> espera por si!
     </div>
   </div>
 </div>
@@ -19,7 +19,7 @@
   </div>
   <div id="wrapper">
     <div id="typing-demo4">
-      O Digi4Construction espera
+      O <span class="font-betatron" style="font-size: 24px">Digi<span id="glow2">4</span>Construction</span> espera
     </div>
   </div>
   <div id="wrapper">
