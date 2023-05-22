@@ -9,14 +9,14 @@
 
 ## Commands to start the program
 
-npm install;
-npm run dev (to build the frontend with Laravel Mix);
-npm run watch (Builds the frontend only once and is always executing);
-php artisan migrate;
-php artisan migrate:fresh --seed (command to clear all the data inserted and migrate it);
-php artisan serve
+- npm install;
+- npm run dev (to build the frontend with Laravel Mix);
+- npm run watch (Builds the frontend only once and is always executing);
+- php artisan migrate;
+- php artisan migrate:fresh --seed (command to clear all the data inserted and migrate it);
+- php artisan serve
 
 ## Pages you can access in this project
 
-/;
-/success;
+- /;
+- /success;
