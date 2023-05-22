@@ -9,6 +9,20 @@
     src: url('../../public/fonts/Betatron-Regular.otf') format('truetype');
 }
 
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    border-top: transparent;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill{
+  -webkit-text-fill-color: white !important;
+}
+
 #glow {
     color: #fff;
     text-align: center;
