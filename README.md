@@ -18,5 +18,5 @@ php artisan serve
 
 ## Pages you can access in this project
 
-/form;
+/;
 /success;
