@@ -82,6 +82,7 @@ input:-webkit-autofill{
     border-radius: 4px;
     transition: all 150ms ease;
     width: 220px;
+    color: white;
     background: #00a2ff;
 }
 #myBtn:hover {
