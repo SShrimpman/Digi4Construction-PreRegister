@@ -26,9 +26,9 @@ class StoreuserRequest extends FormRequest
     {
         return [
             'name' => 'required|string|max:20|min:2',
-            'last_name' => 'required|string|max:25',
+            // 'last_name' => 'required|string|max:25',
             'email' => 'required|email|string|unique:users',
-            'profession' => 'required|string|max:50',
+            // 'profession' => 'required|string|max:50',
             'company' => 'nullable|string|max:25',
             'password' => 'required|string|min:8'
         ];
@@ -37,10 +37,10 @@ class StoreuserRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'The name field is required',
-            'last_name.required' => 'the last_name field is required',
-            'email.required' => 'the email field is required or email already exists',
-            'password.required' => 'password field is required'
+            'name.required' => 'Nome é obrigatório!',
+            // 'last_name.required' => 'the last_name field is required',
+            'email.required' => 'E-mail é obrigatório ou o E-mail já existe!',
+            'password.required' => 'A Palavra-Passe é obrigatória'
         ];
     }
 }
