@@ -30,7 +30,7 @@ Route::get('temp', function () {
 
 /**FIRST FORM  */
 //Form route with fields
-Route::get('/', [UserController::class, 'index']);
+Route::get('/pre-registo', [UserController::class, 'index']);
 //Store route connected with database
 Route::post('store', [UserController::class, 'store']);
 
