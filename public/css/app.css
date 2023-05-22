@@ -1292,6 +1292,10 @@ video {
     
 @media (min-width: 768px){
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:w-96{
     width: 24rem;
   }
@@ -1313,6 +1317,10 @@ video {
 
   .lg\:mt-5{
     margin-top: 1.25rem;
+  }
+
+  .lg\:flex{
+    display: flex;
   }
 
   .lg\:items-center{
