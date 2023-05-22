@@ -20,9 +20,9 @@ use App\Notifications\PreRegisterMS;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('temp', function () {
     return view('temp');
@@ -30,7 +30,7 @@ Route::get('temp', function () {
 
 /**FIRST FORM  */
 //Form route with fields
-Route::get('form', [UserController::class, 'index']);
+Route::get('/', [UserController::class, 'index']);
 //Store route connected with database
 Route::post('store', [UserController::class, 'store']);
 
