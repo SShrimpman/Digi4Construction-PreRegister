@@ -9,13 +9,18 @@
 
 ## Commands to start the program
 
-- npm install;
-- npm run dev (to build the frontend with Laravel Mix);
-- npm run watch (Builds the frontend only once and is always executing);
-- php artisan migrate;
-- php artisan migrate:fresh --seed (command to clear all the data inserted and migrate it);
-- php artisan serve
+### Dependencies
+
+-   composer install;
+-   php artisan key:generate;
+-   php artisan migrate (db name: ms_beta);
+-   npm install;
+
+### Run the program
+
+-   npm run dev (Check package.json for more info);
+-   php artisan serve
 
 ## Pages you can access in this project
 
-- /pre-registo;
+-   /pre-registo;
