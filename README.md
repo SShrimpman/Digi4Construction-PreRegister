@@ -18,5 +18,4 @@
 
 ## Pages you can access in this project
 
-- /;
-- /success;
+- /pre-registo;
