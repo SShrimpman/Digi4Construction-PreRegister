@@ -55,7 +55,7 @@ class UserController extends Controller
 
 
             // $user->notify(new PreRegisterMS($user));
-            return redirect('/')->with('success', 'Data saved');
+            return redirect('/pre-registo')->with('success', 'Data saved');
         }
         return back()->withErrors($request->validated())->withInput();
     }
