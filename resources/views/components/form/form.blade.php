@@ -27,7 +27,7 @@
                 <h3 class="flex justify-center font-bold font-betatron text-xl tracking-widest">Junte-se a nós!</h3>
             </div>
             <div class="flex justify-center">
-                <div class="grid grid-cols-1 mb-5 mt-5 gap-5 md:w-96">
+                <div class="grid grid-cols-1 mb-5 mt-5 gap-5 w-72 md:w-96">
                     <div class="relative w-full min-w-[200px]">
                         <input type="text" id="name" name="name" id="placeholder-text"
                         class="peer h-full w-full rounded-[7px] border border-blue-gray-200 bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-1 focus:border-lightBlue focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
