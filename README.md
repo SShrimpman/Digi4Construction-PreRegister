@@ -9,20 +9,14 @@
 
 ## Commands to start the program
 
-- npm install;
-- npm run dev (to build the frontend with Laravel Mix);
-- npm run watch (Builds the frontend only once and is always executing);
-- php artisan migrate;
-- php artisan migrate:fresh --seed (command to clear all the data inserted and migrate it);
-- php artisan serve
+### Dependencies
 
-## Pages you can access in this project
+-   composer install;
+-   php artisan key:generate;
+-   php artisan migrate (db name: ms_beta);
+-   npm install;
 
-- /;
+### Run the program
 
-## If getting error 404 Not Found
-
-- php artisan route:cache (Command to clear the route cache);
-- php artisan cache:clear (Command to clear the Application cache);
-- php artisan optimize (Command to Clear Configuration, Route and Files cache);
-- LAST RESORT : Restart the PC
+-   npm run dev (Check package.json for more info);
+-   php artisan serve
