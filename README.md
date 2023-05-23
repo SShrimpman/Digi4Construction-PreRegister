@@ -20,7 +20,3 @@
 
 -   npm run dev (Check package.json for more info);
 -   php artisan serve
-
-## Pages you can access in this project
-
--   /pre-registo;
