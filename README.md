@@ -18,4 +18,11 @@
 
 ## Pages you can access in this project
 
-- /pre-registo;
+- /;
+
+## If getting error 404 Not Found
+
+- php artisan route:cache (Command to clear the route cache);
+- php artisan cache:clear (Command to clear the Application cache);
+- php artisan optimize (Command to Clear Configuration, Route and Files cache);
+- LAST RESORT : Restart the PC

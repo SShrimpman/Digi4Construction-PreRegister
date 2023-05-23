@@ -20,34 +20,7 @@ use App\Notifications\PreRegisterMS;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-Route::get('temp', function () {
-    return view('temp');
-});
-
-/**FIRST FORM  */
 //Form route with fields
-Route::get('/pre-registo', [UserController::class, 'index']);
+Route::get('/', [UserController::class, 'index']);
 //Store route connected with database
 Route::post('store', [UserController::class, 'store']);
-
-//sucessfully page
-Route::get('sucess', function () {
-    return view('pages.success.index');
-});
-
-Route::get('form2', function () {
-    return view('form');
-});
-
-
-
-/**SECOND FORM ROUTES !!! */
-
-Route::post('storeUserStand', [UserStandController::class, 'store']);
-Route::get('concreta/$dH9z4UP7^M', function () {
-    return view('standForm');
-});
